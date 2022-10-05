@@ -1,7 +1,8 @@
 {
   "expo": {
     "name": "SmartAttendanceSys",
-    "slug": "SmartAttendanceSys",
+    "slug": "smartattendancesys",
+    "owner": "ritik112",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,10 +25,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.ritik112.smartattendancesys"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0c852f99-0223-4946-bd12-f1a66729ebe6"
+      }
     }
   }
 }
